@@ -1,5 +1,6 @@
 :root {
     --base-green: #1ED956;
+    --light-green: #71FC6A;
 }
 
 * {
@@ -8,20 +9,22 @@
     margin: 0px;
 }
 
-html, body, main {
+html, body {
     height: 100%;
 }
 
-header {
+body {
     display: grid;
-    grid-template: 1fr 11fr / 1fr;
+    grid-template: 1fr 11fr 1fr / 1fr;
 }
 
 nav {
-    background-color: var(--base-green);
     height: 100%;
+
     display: flex;
     align-items: center;
+
+    background-color: var(--base-green);
 }
 
 img {
@@ -33,10 +36,12 @@ img {
 #navbar {
     flex: 1;
     padding-left: 20px;
-    display: flex;
-    list-style: none;
-    gap: 40px;
     margin-right: 30px;
+
+    display: flex;
+    gap: 40px;
+
+    list-style: none;
 }
 
 #navbar>div {
@@ -53,4 +58,21 @@ img {
     font-size: 21px;
     font-weight: 400;
     text-shadow: 3px 3px 15px black;
+}
+
+main {
+    /*Colocar*/
+    grid-row: 2;
+}
+
+footer{
+    /*Colocar no final da pagina*/
+    grid-row: 3;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: darkgrey;
+    background-color: var(--light-green);
 }
