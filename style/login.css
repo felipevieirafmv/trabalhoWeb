@@ -79,3 +79,10 @@ label {
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
+
+
+@media screen and (max-width: 1200px) {
+    .colunas {
+        grid-template: 10fr 1fr 10fr / 1fr;
+    }
+}
