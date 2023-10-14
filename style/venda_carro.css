@@ -56,6 +56,7 @@ input[type="button"]{
     color: white;
     border: solid 1px black;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 #vender:hover {
@@ -67,4 +68,6 @@ input[type="button"]{
     background-color: #56c050;
     color: white;
 }
+
+
 
