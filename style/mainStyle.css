@@ -1,6 +1,6 @@
 :root {
     --base-green: #1ED956;
-    --light-green: #71FC6A;
+    --light-green: #3f8f3b;
 }
 
 * {
@@ -24,7 +24,9 @@ nav {
     display: flex;
     align-items: center;
 
-    background-color: var(--base-green);
+    background: #1ED956;
+    background: linear-gradient(180deg, #1ED956 0%, rgba(63,150,41,0) 43%);
+
 }
 
 img {
@@ -42,6 +44,12 @@ img {
     gap: 40px;
 
     list-style: none;
+}
+
+#navbar li:hover{
+    background: rgba(63,150,41,0);
+    background: linear-gradient(180deg, rgba(63,150,41,0), #1ED956 43%);
+    padding: 12px 0;
 }
 
 #navbar>div {
@@ -81,7 +89,7 @@ footer{
     align-items: center;
     justify-content: center;
 
-    color: darkgrey;
+    color: white;
     background-color: var(--light-green);
 }
 
