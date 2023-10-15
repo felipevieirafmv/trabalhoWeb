@@ -136,12 +136,12 @@ html {
     height: 100%;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .comment {
     width: calc(33.33% - 30px);
-    max-width: 400px;
+    max-width: 470px;
 
     background-color: white;
     border-radius: 30px;
