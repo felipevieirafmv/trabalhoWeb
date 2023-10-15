@@ -1,5 +1,11 @@
+main{
+    background: rgb(30,217,86);
+    background: linear-gradient(180deg, rgba(30,217,86,1) 0%, rgba(6,20,15,1) 55%);
+}
+
 .sobre{
-    background-color: #87E35B;
+    background: rgb(63,150,41);
+    background: linear-gradient(180deg, rgba(63,150,41,0.9501050420168067) 0%, rgba(6,20,15,1) 43%);
     margin-top: 1%;
     margin-bottom: 1%;
     margin-right: 1%;
@@ -14,20 +20,50 @@
     font-size: 15px;
     font-weight: 200;
     text-shadow: 3px 3px 15px black;
+    font-family: 'Roboto Mono', monospace;
 }
 
+.sobre-a-loja{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 18px;
+    font-weight: 200;
+    text-shadow: 3px 3px 15px black;
+    font-family: 'Young Serif', serif;
+}
 
-.imagem-container {
-    border-radius: 5px;
+.logo{
+    text-align: center;
+}
+
+.titulo-texto{
+    margin-left: 3%;
+    color: white;
+    font-size : 20px;
+    font-weight: bold;
+    text-shadow: 3px 3px 15px black;
+}
+
+.texto{
+    margin-left: 5%;
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    text-shadow: 3px 3px 15px black;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.imagem-container{
     display: flex;
-    flex-wrap: wrap;
-    margin: 15px;
 }
 
 
 .item {
     flex: 1;
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 0px;
     text-align: center;
     color: white;
     text-decoration: none;
@@ -40,15 +76,20 @@
 .item img{
     width: 175px;
     height: 200px;
-    border-radius: 5px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 3px 3px #0be16b;
 }
 
-
-.logo2{
-    text-align: center;
+.fale-conosco{
+    border-radius: 20px;
+    background-color: #56b42bae;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 35%;
+    margin-left: 35%;
 }
 
-.sobre-a-loja{
+.titulo-caixa{
     text-align: center;
     color: white;
     text-decoration: none;
@@ -58,7 +99,7 @@
     text-shadow: 3px 3px 15px black;
 }
 
-.sobre-a-loja2{
+.conteudo-caixa{
     text-align: center;
     color: white;
     text-decoration: none;
@@ -68,18 +109,13 @@
     text-shadow: 3px 3px 15px black;
 }
 
-.fale-conosco{
-
-    border-radius: 20px;
-    background-color: #56b42bae;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-right: 35%;
-    margin-left: 35%;
-
+.botão{
+    text-align: center;
 }
 
 #botão {
+    box-shadow: 0px 0px 3px 3px #0be16b;
+    text-align: center;
     background-color: #00e238;
     color: white;
     font-size: 16px;
