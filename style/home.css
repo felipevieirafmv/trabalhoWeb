@@ -168,3 +168,6 @@ html {
     border: 3px solid #04B395;
     border-radius: 100px;
 }
+footer{
+    padding-block: 30px;
+}

@@ -92,6 +92,7 @@ main{
     height: 200px;
     border-radius: 30px;
     box-shadow: 0px 0px 3px 3px #0be16b;
+    padding: 0;
 }
 
 .fale-conosco{
@@ -158,4 +159,8 @@ main{
     
     font-size: 15px;
     font-weight: 200;
+}
+
+footer {
+    padding-block: 30px;
 }
