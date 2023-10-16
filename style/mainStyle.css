@@ -25,7 +25,7 @@ nav {
     align-items: center;
 
     background: #1ED956;
-    background: linear-gradient(180deg, #1ED956 0%, rgba(63,150,41,0) 43%);
+    background: linear-gradient(180deg, #1ED956 0%, rgba(63,150,41,100%) 43%);
 
 }
 
